@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5e87775eec.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:1000px)" href="phone.css">
+    <title>Password Generator</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h3>Password Generator</h3>
+
+        <div class="userchoices">
+            <input type="text" name="password" id="password">
+            <button id="fclipboard"><i class="fa fa-clipboard"></i></button>
+
+            <label for="NumberofCharacters">Number of characters</label>
+            <input type="number" name="characters" id="NumberofCharacters" min="1" max="40" value="10">
+
+            <label for="uppercase">Include uppercase letters</label>
+            <input type="checkbox" class = "chbox" name="uppercase" id="uppercase">
+
+            <label for="lowercase">Include lowercase letters</label>
+            <input type="checkbox" class = "chbox" name="lowercase" id="lowercase">
+
+            <label for="numbers">Include numbers</label>
+            <input type="checkbox" class = "chbox" name="numbers" id="numbers">
+
+            <label for="symbols">Include symbols</label>
+            <input type="checkbox" class = "chbox" name="symbols" id="symbols">
+
+            <input type="text" name="name" id="Uname" placeholder="Enter any word to include in password">
+
+            <button id="submit">Generate Password</button>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

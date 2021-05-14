@@ -1,0 +1,74 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(180, 176, 176);
+}
+
+.container{
+    display: block;
+    border: 2px solid black;
+    width: 33%;
+    padding: 10px;
+    margin: 100px auto;
+    border-radius: 5px;
+    background: linear-gradient(to right,rgb(149, 146, 146),rgb(165, 165, 184));
+}
+
+.userchoices{
+    display: grid;
+    grid-template-columns: auto 50px;
+    grid-template-rows: 40px auto auto auto auto auto 33px 35px;
+    grid-gap: 13px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bolder;
+}
+
+#submit{
+    grid-column: 1 / span 2;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#Uname{
+    grid-column: 1 / span 2;
+    font-size: 20px;
+    font-family: 'Balsamiq Sans', 'cursive';
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.container h3{
+    font-family: 'Balsamiq Sans', 'cursive';
+    font-size: 35px;
+    text-align: center;
+    margin: 20px;
+}
+
+#password{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#submit:hover{
+    background: grey;
+    font: bold;
+}
+
+.chbox{
+    transform: scale(1.4);
+}
+
+#NumberofCharacters{
+    transform: scale(1.1);
+}
+
+#fclipboard{
+    cursor: pointer;
+}
